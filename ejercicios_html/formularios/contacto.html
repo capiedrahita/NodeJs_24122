@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios en Html</title>
+        <style>
+            body {
+                margin: 50px;
+                background-color: blanchedalmond;
+            }
+            h1 {
+                color: #005a9c;
+            }
+            h2 {
+                color: #005a9c;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="../../index.html">&#8678;Volver al Índice</a>
+
+        <h1>Contacto</h1>
+        <p>
+            ¡Nos encantaría saber de ti! Por favor, completa el siguiente
+            formulario para ponerte en contacto con nuestro equipo. Estamos aquí
+            para responder cualquier pregunta que tengas, escuchar tus
+            comentarios, y ayudarte en lo que necesites. Tu
+            opinión es invaluable para nosotros mientras trabajamos para
+            brindarte la mejor experiencia posible.
+
+            Por favor, completa todos los campos obligatorios marcados con un
+            asterisco (*). Una vez que envíes el formulario, te responderemos lo
+            antes posible.
+
+            ¡Gracias por elegirnos y por tomarte el tiempo de ponerte en
+            contacto con nosotros!
+
+        </p>
+
+        <form action>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nombre">*Nombre:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="apellido">*Apellido:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="apellido" name="apellido"
+                            required>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telefono">Teléfono:</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="telefono" name="telefono">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mensaje">*Mensaje:</label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea name="mensaje" id="mensaje" cols="30"
+                            rows="10" required></textarea>
+                    </td>
+                </tr>
+            </table>
+            <tr>
+                <td>
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+
+        </form>
+        <br>
+        <p>©Carlos Piedrahita 2024 - <a
+                href="mailto:capiedra@hotmail.es">&#128238; Escríbeme</a></p>
+
+    </body>
+</html>
