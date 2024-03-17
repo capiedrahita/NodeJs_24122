@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+    Manejo de Imágenes-audio-video en html
+    Desarrollado por: Carlos Piedrahita
+    Curso Codo a Codo - Full Stack NodeJS
+    Repaso de HTML
+    Fecha: 2024-03-11
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Aunque no es el tema de este ejercicio le añado un poco de estilo para que se vea mejor. -->
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color:antiquewhite;
+                margin: 30px;
+            }
+            h1 {
+                color: darkred;
+
+            }
+            h2 {
+                color: navy;
+            }
+        </style>
+        <title>Manejo de Imágenes-Audio-Video</title>
+    </head>
+    <body>
+        <h1>Imágenes-Audio-Video</h1>
+        <ul>
+            <li><a href="#imagenes">Imágenes</a></li>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#video">Videos</a></li>
+        </ul>
+        <h2 id="imagenes">Ejemplo de imágenes</h2>
+        <p>Estos son logos tomados de la página web de <a
+                href="https://inscripcionesagencia.bue.edu.ar/codoacodo/"
+                target="_blank">"Codo a Codo"</a></p>
+        <!-- imagen logo de Agencia de Aprendizaje a lo largo de la vida - atributo de alto -->
+        <b>&#9889; Logo Agencia de Aprendizaje a lo largo de la vida</b><br>
+        <img src="./imgs/logos-nav.webp" alt="Logo AA" height="60">
+        <br>
+        <br>
+        <!-- imagen logo de Agencia de Aprendizaje a lo largo de la vida - atributo de ancho -->
+        <b>&#9889; Logo Codo a Codo</b><br>
+        <img src="./imgs/codoacodo.jpeg" alt="Codo a Codo Logo" width="100">
+        <br>
+        <b>&#9889; Imagen Foto-realista de Princesa generada por
+            LeonardoAI</b><br><br>
+        <img src="./imgs/princesa.jpg" alt="Princesa Rubia" height="600px">
+
+        <!-- Manejo de Audio -->
+
+        <h2 id="audio">Ejemplo de Audio</h2>
+
+        <h2 id="video">Etiquetas de Video</h2>
+
+        <b>&#9889; Video de Ejemplo tomado de W3 School</b><br><br>
+        <!-- Manejo de Video - atributos: src (fuente del video, url), width(ancho), height(alto) 
+            controls (muestra los controles del video), muted (reproduce el video sin sonido), loop (reproduce el video en bucle)
+        -->
+        <video controls muted>
+            <source src="./video/movie.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <br>
+
+        <!-- Manejo de Iframe  -->
+
+        <h2>&#9889; Inserción de Video utilizando etiquetas de Iframe</h2>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/t0ysiI_rLaY?si=f08KMbcfqsfC4hJy"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe><br><br>
+
+        <footer>Carlos Piedrahita 2024 - &#128237;Contacto:<a
+                href="mailto:noreal@mail.com">noreal@mail.com</a></footer>
+    </body>
+</html>
