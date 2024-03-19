@@ -1,0 +1,67 @@
+* {
+        font-family: Arial, sans-serif;
+     }
+.container {
+        width: 100%;
+        text-align: center;
+        
+     }
+
+body {
+        margin: 0px 20px;
+        padding: 0px;
+        background-color:white;
+     }
+
+
+     nav {
+        background-color: #ef9928;
+        color: white;
+        padding: 10px;
+     }
+
+     nav a {
+        background-color: #ed6928;
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+        padding: 10px;
+     }
+     header {
+        text-align: center;
+        background-color: #ef9928;
+        color: white;
+        padding: 10px;
+     }
+
+     h1 {
+        color: #005a9c;
+     }
+
+     h2 {
+        color: #005a9c;
+     }
+
+     footer {
+        background-color: #ef9928;
+        color: white;
+        padding: 10px;
+        text-align: center;
+     }
+
+     .formulario{
+        background-color: #ed6928;
+        width: max-content;
+        color: white;
+        padding: 50px;
+        text-align: left;
+        font-size: large;
+     }
+     
+     .confor {     
+        display: flex;  /* Convierte el contenedor en un contenedor flex */
+        justify-content: center;  /* Centra los elementos horizontalmente */
+        align-items: center;  /* Centra los elementos verticalmente */
+        padding: 20px;        
+    }
+
